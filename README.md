@@ -1,2 +1,3 @@
-# comp2245-assignment2
-Repository to push assignment 2 code to. 
+# COMP2245 Assignment 2
+
+This is Assignment 2 for Akeem Richards
