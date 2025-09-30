@@ -14,7 +14,7 @@ body{
     max-width: 100%;
     display: grid;
     grid-template-columns: 70% 25%;
-    grid-template-rows: 300px 950px 50px;
+    grid-template-rows: 300px 1100px 50px;
     gap: 5%;
 }
 
@@ -46,16 +46,20 @@ header img{
     justify-content: center;
     text-align: left;
     min-width: 0;
-    padding: 0 0 0 160px;
+    padding: 0 50px 0 250px;
 }
 
-#box2 article{
+#box2 .article-1, .article-2{
     margin-bottom: 50px;
     
 }
 
-#box2 article h5{
+#box2 .article-1 h5, .article-2 h5{
     padding-bottom: 10px;
+}
+
+#box2 .article-2{
+    padding-top: 40px;
 }
 
 #box2 h2{
@@ -77,7 +81,7 @@ header img{
 #box2 .img2{
     width: 375px;
     float: right;
-    margin: 0 10px 0 0px;
+    margin: 0 0 0 10px;
     border-radius: 10px;
 }
 
@@ -87,7 +91,7 @@ header img{
     text-align: left;
     width: 100%;
     min-width: 0;
-    padding: 0 100px 0 0;
+    padding: 0 150px 0 0;
 }
 
 #box3 ul{
@@ -106,6 +110,10 @@ header img{
     padding: 10px;
     margin-bottom: 20px;
     
+}
+
+#box3 .about h3{
+    margin-bottom: 10px;
 }
 
 #box3 .Socials, .Archives{
