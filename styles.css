@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    max-width:100%;
+    font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size: 18px;
+    color: #2D3748;
+}
+
+.grid-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 70% 25%;
+    grid-template-rows: 300px 950px 50px;
+    gap: 5%;
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    grid-column: span 2;
+    height: 100%;
+   
+}
+
+#box1 header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header img{
+    border-radius: 50%;
+    height: 120px;
+
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    min-width: 0;
+    padding: 0 0 0 160px;
+}
+
+#box2 article{
+    margin-bottom: 50px;
+    
+}
+
+#box2 article h5{
+    padding-bottom: 10px;
+}
+
+#box2 h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+#box2 h5{
+    color: #718096;
+}
+
+#box2 .img1{
+    width: 375px;
+    float: left;
+    margin: 0 10px 0 0px;
+    border-radius: 10px;
+}
+
+#box2 .img2{
+    width: 375px;
+    float: right;
+    margin: 0 10px 0 0px;
+    border-radius: 10px;
+}
+
+#box3{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    min-width: 0;
+    padding: 0 100px 0 0;
+}
+
+#box3 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#box3 ul li{
+    text-align: left;
+}
+
+#box3 .about{
+    background-color: #E2E8F0;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#box3 .Socials, .Archives{
+    margin-bottom: 30px;
+}
+
+#box3 .Socials h3, .Archives h3{
+    color: #48BB78;
+}
+
+#box3 .Socials a, .Archives a{
+    text-decoration: none;
+    color: #4299E1;
+}
+
+#box4{
+    grid-column: span 2;
+    background-color: #2C5282;
+    color:#FFFFFF;
+    display: grid;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+
+
