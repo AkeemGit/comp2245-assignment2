@@ -89,6 +89,7 @@ header img{
     display: flex;
     justify-content: center;
     text-align: left;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     min-width: 0;
     padding: 0 150px 0 0;
